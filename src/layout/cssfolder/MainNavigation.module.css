@@ -1,0 +1,40 @@
+.header{
+    height:5rem;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    color:white;
+    justify-content: space-around;
+    padding:0 10%;
+}
+.logo{
+    font-size: 2rem;
+    color:white;
+    font-weight: bold; 
+}
+.header ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    align-items: baseline;
+}
+.header li{
+    margin-left: 3rem;
+}
+.header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fcb8d2;
+}
+.header a:hover,a:active{
+color:white;
+}
+.badge{
+
+    background-color: #cc2602;
+    color:white;
+    border-radius: 12px;
+    padding:0 1rem;
+    margin-left: 0.5rem;
+}
